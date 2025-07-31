@@ -38,3 +38,13 @@ footer {
   text-align: center;
   padding: 1em;
 }
+header img {
+  float: left;
+  margin-right: 15px;
+}
+
+header h1 {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+}
