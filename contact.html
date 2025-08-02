@@ -1,1 +1,55 @@
-<a href="contact.html">Contact</a> 
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Hope Paws</title>
+  <link rel="stylesheet" href="css/style.css"> <!-- Make sure this file exists -->
+</head>
+<body>
+
+  <header>
+    <img src="images/logo.png" alt="Hope Paws Logo" class="logo"> <!-- Ensure this image path is correct -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you! Whether you're looking to adopt, volunteer, or just say hi.</p>
+
+      <div class="contact-info">
+        <p><strong>Email:</strong> info@hopepaws.org</p>
+        <p><strong>Phone:</strong> +27 12 345 6789</p>
+        <p><strong>Location:</strong> Johannesburg, South Africa</p>
+      </div>
+
+      <form action="#" method="post"> <!-- You can use services like Formspree for live submissions -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Hope Paws. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
